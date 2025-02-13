@@ -52,3 +52,139 @@ section>h2{
     font-weight: normal;
     color: white;
 }
+.nav2{
+    max-width: 60%;
+    margin: auto;
+
+}
+.nav2>ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.nav2>ul>li{
+    font-size: 27px;
+    color: #909090;
+    font-style: italic;
+}
+.nav2>ul>li>img{
+    margin-left: 7px;
+}
+.contentimg{
+    max-width: 70%;
+    margin: 90px auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img{
+    width: 390px;
+    height: 439px;
+    background-color: white;
+    margin: 15px;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgsub{
+    margin-top: 17px;
+}
+.imgsub>img{
+    width: 337px;
+    height: 160px;
+    margin: 10px 17px 15px 17px;
+}
+.imgsub>h2{
+    font-size: 19px;
+    line-height: 28.5px;
+    text-align: left;
+    margin-left: 27px;
+}
+.imgsub>p{
+    font-size: 16px;
+    text-align: left;
+    margin: 10px 0 20px 27px;
+    line-height: 24px;
+}
+.img>span{
+    font-size: 16px;
+}
+.span1{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.span{
+    margin-left: 27px;
+    margin-bottom: 27px;
+    width: 205px;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+}
+.suma{
+    opacity: 0;
+}
+#bold{
+    font-weight: bold;
+    font-size: 20px;
+}
+.pagination{
+    width: 500px;
+    margin: auto;
+}
+.pagination>ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: #909090;
+    font-size: 25px;
+    font-style: italic;
+}
+#dois{
+    color: #ff7575;
+}
+footer{
+    height: 170px;
+    border-top:solid 2px #4d4d4d;
+    margin-top: 150px;
+}
+.contentlogot{
+    width: 70%;
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logot{
+    display: flex;
+}
+.azul{
+    width: 130px;
+    height: 34px;
+    margin-left: 15px;
+    background-color: #4699E0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    color: white;
+}
+.azul2{
+    width: 221px;
+    height: 34px;
+    background-color: #4699E0;
+    border-radius: 5px;
+    font-size: 19px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#imgazul{
+    margin-right: 10px;
+}
